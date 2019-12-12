@@ -24,9 +24,9 @@ function getVote(int) {
 <div id="poll">
 <h3>Seguimos Path Normal ou Infra++?</h3>
 <form>
-Yes:
+Normal:
 <input type="radio" name="vote" value="0" onclick="getVote(this.value)">
-<br>No:
+<br>Infra++:
 <input type="radio" name="vote" value="1" onclick="getVote(this.value)">
 </form>
 </div>
