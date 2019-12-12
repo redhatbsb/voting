@@ -1,5 +1,6 @@
 
 <?php
+ini_set("display_errors", false);
 $vote = $_REQUEST['vote'];
 
 //get content of textfile
@@ -28,7 +29,7 @@ fclose($fp);
 <h2>Result:</h2>
 <table>
 <tr>
-<td>Yes:</td>
+<td>Normal:</td>
 <td>
 <img src="poll.gif"
 width='<?php echo(100*round($yes/($no+$yes),2)); ?>'
@@ -37,7 +38,7 @@ height='20'>
 </td>
 </tr>
 <tr>
-<td>No:</td>
+<td>Infra++:</td>
 <td>
 <img src="poll.gif"
 width='<?php echo(100*round($no/($no+$yes),2)); ?>'
