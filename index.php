@@ -22,7 +22,7 @@ function getVote(int) {
 <body>
 
 <div id="poll">
-<h3>Do you like PHP and AJAX so far?</h3>
+<h3>Seguimos Path Normal ou Infra++?</h3>
 <form>
 Yes:
 <input type="radio" name="vote" value="0" onclick="getVote(this.value)">
